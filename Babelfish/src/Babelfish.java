@@ -11,13 +11,13 @@ public class Babelfish {
 	}
 
 
-	public void print(String newLine) {          // Print Method
+	public void print(String newLine) {         
 
 		System.out.println(newLine);
 
 	}
 
-	public String doMethod() {                               // Logic method 
+	public String doMethod() {                               
 
 		if (text.length() >= 3) {
 			
@@ -85,9 +85,9 @@ public class Babelfish {
 
 	}
 
-	public static void main(String[] args) { // Main method
+	public static void main(String[] args) {
 
-		Babelfish p1 = new Babelfish("tenis");  //5 broq 
+		Babelfish p1 = new Babelfish("tenis");  
 
 	String newLine = p1.doMethod(3,'%');
 	p1.print(newLine);
